@@ -16,6 +16,17 @@
         Local Unit Testing
     Monitoring Your App
         Monitoring Latency with Cloud Trace
+            quickstarts(https://cloud.google.com/trace/)
+                getting started
+            guides
+                trace overview
+                finding traces
+                viewing trace details
+                analysis reports
+            apis & reference
+                cloud trace api
+                rest api
+                rpc api
         Detecting Outages and Downtime
             Capabilities API Overview
             Capabilities API Reference
