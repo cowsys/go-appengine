@@ -41,7 +41,7 @@
     Integrating with Google Analytics
     Configuring Your App With app.yaml
     Configuring DoS protection with dos.yaml
-    Programatically Managing Your App
+    Programatically Managing Your App(admin api)
 
 ## Storing Data
     Storing Data Overview

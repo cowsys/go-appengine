@@ -346,15 +346,103 @@ none.
 
 #### getting started
 - Start using Cloud Monitoring
+```
+Note: Domain-scoped projects are not supported by Google Cloud Monitoring at this time.
+
+https://app.google.stackdriver.com/
+```
 -- Monitoring App Engine projects
+```
+The preceding screenshot displays the following related sections in the Cloud Monitoring Console for App Engine projects:
+
+* App Engine shows a list of your App Engine modules along with the number of incidents for each module.
+** Selecting any of the modules here will take you to the detailed dashboard for that module.
+* Uptime Checks > GAE Module shows a list of configured uptime checks for your App Engine applications
+```
 -- Monitoring Google Compute Engine projects
+```
+skip.
+```
 - The Event Log
+```
+Event Log entries can note changes related to the following:
+* user accounts
+* alerting policies
+* metric values
+* code deployments
+* Google Cloud status changes, such as outages
+* Identity and Access Management roles
+* security groups
+* incident status
+* resource additions, removals, and tag changes
+* manually-created notices
+```
 - Uptime checks
+```
+skip.
+```
 -- Create an uptime check
+```
+point:resource type
+* Choose Instance to check a single Compute Engine instance or a group of instances.
+* Choose App Engine to check an App Engine module.
+* Choose URL to check an arbitrary web-accessible point.
+* and load balancer
+```
 - Dashboards and charts
 -- Create a dashboard and chart
+```
+* resource type
+- gae app
+- gae module
+- gae version
+- log metrics
+* metric type
+- https://cloud.google.com/monitoring/api/metrics#metric-list
+-- *** IMPORTANT ***
+-- example of top-level elements
+--- appengine
+--- cloudsql
+--- compute
+--- container
+--- datastore
+--- pubsub
+--- advanced options
+- threshold line
+- aggregate resources
+-- average
+-- sum
+-- minimum
+-- maximum
+-- median
+-- standard deviation
+-- 95th percentile
+-- 5th percentile
+filter
+- filter by 
+-- name
+-- resource id
+```
 -- View logs associated with charts
+```
+If you notice an interesting event in one of your charts,
+you can go directly to the relevant project logs for more information.
+```
 - Groups
+```
+Groups let you easily monitor collections of related resources.
+Cloud Monitoring relies on metadata such as names and tags to create groups,
+so you have flexibility in defining a set of rules to aggregate your resources.
+```
 -- Create a group
+```
+skip
+```
 - Alerting policies
+```
+skip.
+```
 -- Create a policy
+```
+skip.
+```
